@@ -67,6 +67,7 @@ export default function TaskList() {
     ...tasks.filter((t) => t.state === "TASK_PINNED"),
     ...tasks.filter((t) => t.state !== "TASK_PINNED"),
   ];
+
   return (
     <div className="list-items">
       {tasksInOrder.map((task) => (
