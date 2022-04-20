@@ -8,6 +8,7 @@ module.exports = {
     "@storybook/addon-interactions",
   ],
   features: {
+    interactionsDebugger: true,
     postcss: false,
   },
   framework: "@storybook/react",
